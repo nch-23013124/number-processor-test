@@ -32,5 +32,6 @@ public class NumberProcessorTest {
     void testEmpty() {
         int[] arr = {};
         assertEquals(0, NumberProcessor.processNumbers(arr));
+        
     }
 }
